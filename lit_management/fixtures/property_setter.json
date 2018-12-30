@@ -1710,7 +1710,7 @@
   "doctype": "Property Setter", 
   "doctype_or_field": "DocType", 
   "field_name": null, 
-  "modified": "2018-12-29 12:26:44.924236", 
+  "modified": "2018-12-30 08:11:19.873986", 
   "name": "Project-read_only_onload", 
   "property": "read_only_onload", 
   "property_type": "Check", 
