@@ -74,6 +74,12 @@ lit_management/lit_management/doctype/loc_archives/loc_archives.json
 lit_management/lit_management/doctype/loc_archives/loc_archives.py
 lit_management/lit_management/doctype/loc_archives/test_loc_archives.js
 lit_management/lit_management/doctype/loc_archives/test_loc_archives.py
+lit_management/lit_management/doctype/loc_court_reports/__init__.py
+lit_management/lit_management/doctype/loc_court_reports/loc_court_reports.js
+lit_management/lit_management/doctype/loc_court_reports/loc_court_reports.json
+lit_management/lit_management/doctype/loc_court_reports/loc_court_reports.py
+lit_management/lit_management/doctype/loc_court_reports/test_loc_court_reports.js
+lit_management/lit_management/doctype/loc_court_reports/test_loc_court_reports.py
 lit_management/lit_management/doctype/loc_forum/__init__.py
 lit_management/lit_management/doctype/loc_forum/loc_forum.js
 lit_management/lit_management/doctype/loc_forum/loc_forum.json
