@@ -12,9 +12,9 @@ app_email = "test@test.com"
 app_license = "MIT"
 
 
-# fixtures = ["Custom Field"] 
+# fixtures = ["Custom Field"]
 
-fixtures = ["Custom Field", "Property Setter"] 
+fixtures = ["Custom Field", "Property Setter"]
 
 
 # Includes in <head>
@@ -24,7 +24,7 @@ fixtures = ["Custom Field", "Property Setter"]
 # app_include_css = "/assets/lit_management/css/lit_management.css"
 # app_include_js = "/assets/lit_management/js/lit_management.js"
 
-# include js, css files in header of web template
+ #include js, css files in header of web template
 # web_include_css = "/assets/lit_management/css/lit_management.css"
 # web_include_js = "/assets/lit_management/js/lit_management.js"
 
