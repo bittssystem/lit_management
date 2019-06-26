@@ -160,3 +160,5 @@ lit_management/lit_management/doctype/lov_litigation_status/test_lov_litigation_
 lit_management/lit_management/doctype/lov_litigation_status/test_lov_litigation_status.py
 lit_management/templates/__init__.py
 lit_management/templates/pages/__init__.py
+lit_management/templates/pages/__pycache__/__init__.py
+lit_management/www/__init__.py
