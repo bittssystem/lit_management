@@ -14,7 +14,7 @@ app_license = "MIT"
 
 # fixtures = ["Custom Field"]
 
-fixtures = ["Custom Field", "Property Setter"]
+# fixtures = ["Custom Field", "Property Setter"]
 
 
 # Includes in <head>
