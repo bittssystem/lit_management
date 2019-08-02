@@ -5,7 +5,7 @@
  "creation": "2019-01-29 15:14:44.213638",
  "description": "Court Reports",
  "doctype": "DocType",
- "document_type": "Document",
+ "document_type": "Other",
  "engine": "InnoDB",
  "field_order": [
   "matter_reference",
@@ -68,7 +68,7 @@
   },
   {
    "fieldname": "order",
-   "fieldtype": "Text",
+   "fieldtype": "Text Editor",
    "label": "Order"
   },
   {
@@ -82,10 +82,11 @@
  ],
  "icon": "fa fa-puzzle-piece",
  "max_attachments": 15,
- "modified": "2019-07-26 19:39:54.101492",
+ "modified": "2019-08-02 09:40:30.173213",
  "modified_by": "kruger@krugerengelbrecht.co.za",
  "module": "Lit Management",
  "name": "LOC COURT REPORTS",
+ "name_case": "UPPER CASE",
  "owner": "kruger@krugerengelbrecht.co.za",
  "permissions": [
   {
@@ -116,6 +117,30 @@
    "role": "Projects Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
   }
  ],
  "search_fields": "matter_reference",
@@ -124,5 +149,6 @@
  "sort_order": "DESC",
  "timeline_field": "matter_reference",
  "title_field": "matter_reference",
- "track_seen": 1
+ "track_seen": 1,
+ "track_views": 1
 }
