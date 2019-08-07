@@ -1,5 +1,5 @@
 {
- "autoname": "format:Report{MM}-{matter_reference}-{#####}",
+ "autoname": "format:Report-{YYYY}{MM}-{matter_reference}-{#####}",
  "creation": "2019-08-07 12:38:44.244786",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -19,13 +19,18 @@
   {
    "fieldname": "matter_reference",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Matter Reference",
    "options": "Project"
   },
   {
    "fieldname": "forum",
    "fieldtype": "Data",
-   "label": "Forum"
+   "in_list_view": 1,
+   "label": "Forum",
+   "search_index": 1
   },
   {
    "fieldname": "court_case_number",
@@ -34,12 +39,14 @@
   },
   {
    "fieldname": "date_matter_heard",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date Matter Heard"
   },
   {
    "fieldname": "postponement_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Postponement Date"
   },
   {
@@ -63,8 +70,8 @@
    "label": "Court Order"
   }
  ],
- "modified": "2019-08-07 12:40:10.935552",
- "modified_by": "Administrator",
+ "modified": "2019-08-07 13:14:50.221095",
+ "modified_by": "kruger@krugerengelbrecht.co.za",
  "module": "Lit Management",
  "name": "Litigation Court Report",
  "name_case": "UPPER CASE",
