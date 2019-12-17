@@ -1,4 +1,5 @@
 {
+ "allow_events_in_timeline": 1,
  "autoname": "format:Report-{YYYY}{MM}-{matter_reference}-{#####}",
  "creation": "2019-08-07 12:38:44.244786",
  "doctype": "DocType",
@@ -70,7 +71,7 @@
    "label": "Court Order"
   }
  ],
- "modified": "2019-08-07 13:14:50.221095",
+ "modified": "2019-12-14 10:24:47.971986",
  "modified_by": "kruger@krugerengelbrecht.co.za",
  "module": "Lit Management",
  "name": "Litigation Court Report",
@@ -128,7 +129,10 @@
  ],
  "quick_entry": 1,
  "restrict_to_domain": "Services",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_views": 1
 }
