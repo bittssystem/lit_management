@@ -71,7 +71,7 @@
    "label": "Court Order"
   }
  ],
- "modified": "2020-02-18 13:58:27.814098",
+ "modified": "2020-12-04 14:46:25.408122",
  "modified_by": "kruger@krugerengelbrecht.co.za",
  "module": "Lit Management",
  "name": "Litigation Court Report",
@@ -129,6 +129,7 @@
   {
    "email": 1,
    "export": 1,
+   "permlevel": 1,
    "print": 1,
    "read": 1,
    "report": 1,
