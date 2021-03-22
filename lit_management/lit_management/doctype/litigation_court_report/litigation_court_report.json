@@ -14,7 +14,8 @@
   "presiding_officer",
   "for_plaintiff_or_applicant",
   "for_defendant_or_respondent",
-  "court_order"
+  "court_order",
+  "amended_from"
  ],
  "fields": [
   {
@@ -69,9 +70,19 @@
    "fieldname": "court_order",
    "fieldtype": "Text Editor",
    "label": "Court Order"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Litigation Court Report",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
- "modified": "2020-12-04 14:46:25.408122",
+ "is_submittable": 1,
+ "modified": "2021-03-22 18:34:11.030227",
  "modified_by": "kruger@krugerengelbrecht.co.za",
  "module": "Lit Management",
  "name": "Litigation Court Report",
@@ -79,54 +90,9 @@
  "owner": "Administrator",
  "permissions": [
   {
+   "cancel": 1,
    "create": 1,
    "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Employee",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Projects User",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Projects Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
    "email": 1,
    "export": 1,
    "permlevel": 1,
@@ -134,7 +100,9 @@
    "read": 1,
    "report": 1,
    "role": "All",
-   "share": 1
+   "share": 1,
+   "submit": 1,
+   "write": 1
   }
  ],
  "quick_entry": 1,
