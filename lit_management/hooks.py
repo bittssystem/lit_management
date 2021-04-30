@@ -16,6 +16,10 @@ fixtures = ["Custom Field"]
 
 fixtures = ["Custom Field", "Property Setter"]
 
+# Add custom logo for ERPNext
+#app_logo_url = '/assets/lit_management/EKA-LOGO.png'
+app_logo_url = '/assets/lit_management/pngegg-home.png'
+
 
 # Includes in <head>
 # ------------------
