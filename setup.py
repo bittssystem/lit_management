@@ -15,9 +15,9 @@ with open('lit_management/__init__.py', 'rb') as f:
 setup(
 	name='lit_management',
 	version=version,
-	description='Lit Mangmnt',
+	description='Litigation Management',
 	author='KEA',
-	author_email='test@test.com',
+	author_email='kruger.engelbrecht@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
