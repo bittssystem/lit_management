@@ -152,7 +152,7 @@
  "is_submittable": 1,
  "links": [],
  "max_attachments": 15,
- "modified": "2021-05-05 15:53:15.675372",
+ "modified": "2021-05-25 09:11:52.022214",
  "modified_by": "Administrator",
  "module": "Lit Management",
  "name": "LOC ARCHIVES",
@@ -168,6 +168,7 @@
    "report": 1,
    "role": "Attorney",
    "share": 1,
+   "submit": 1,
    "write": 1
   },
   {
@@ -180,6 +181,7 @@
    "report": 1,
    "role": "Projects User",
    "share": 1,
+   "submit": 1,
    "write": 1
   },
   {
@@ -192,10 +194,12 @@
    "report": 1,
    "role": "Projects Manager",
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],
  "restrict_to_domain": "Services",
+ "search_fields": "matter_reference",
  "show_name_in_global_search": 1,
  "sort_order": "DESC",
  "title_field": "archive_ref_name",
