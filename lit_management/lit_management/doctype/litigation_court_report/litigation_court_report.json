@@ -1,4 +1,5 @@
 {
+ "actions": [],
  "allow_events_in_timeline": 1,
  "autoname": "format:Report-{YYYY}{MM}-{matter_reference}-{#####}",
  "creation": "2019-08-07 12:38:44.244786",
@@ -81,9 +82,12 @@
    "read_only": 1
   }
  ],
+ "index_web_pages_for_search": 1,
  "is_submittable": 1,
- "modified": "2021-03-22 19:13:11.202983",
- "modified_by": "kruger@krugerengelbrecht.co.za",
+ "links": [],
+ "max_attachments": 15,
+ "modified": "2021-06-11 03:30:03.285354",
+ "modified_by": "Administrator",
  "module": "Lit Management",
  "name": "Litigation Court Report",
  "name_case": "UPPER CASE",
@@ -108,6 +112,7 @@
    "read": 1,
    "report": 1,
    "role": "Projects User",
+   "select": 1,
    "share": 1,
    "submit": 1,
    "write": 1
@@ -121,6 +126,35 @@
    "read": 1,
    "report": 1,
    "role": "Projects Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "select": 1,
    "share": 1,
    "submit": 1,
    "write": 1
@@ -128,6 +162,7 @@
  ],
  "quick_entry": 1,
  "restrict_to_domain": "Services",
+ "search_fields": "matter_reference,forum,court_case_number,date_matter_heard,postponement_date",
  "show_name_in_global_search": 1,
  "show_preview_popup": 1,
  "sort_field": "modified",

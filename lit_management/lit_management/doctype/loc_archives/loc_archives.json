@@ -1,5 +1,7 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2018-12-29 10:09:41.949452",
@@ -13,6 +15,7 @@
   "archive_status",
   "file_touched_by",
   "naming_series",
+  "column_break_7",
   "all_oustanding_tasks_complete",
   "file_closing_letter_to_client",
   "trust_account_zero_balance",
@@ -145,6 +148,10 @@
    "options": "LOC ARCHIVES",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
   }
  ],
  "icon": "fa fa-puzzle-piece",
@@ -152,7 +159,7 @@
  "is_submittable": 1,
  "links": [],
  "max_attachments": 15,
- "modified": "2021-05-25 09:24:33.330952",
+ "modified": "2021-06-11 11:44:07.593600",
  "modified_by": "Administrator",
  "module": "Lit Management",
  "name": "LOC ARCHIVES",
@@ -196,12 +203,52 @@
    "share": 1,
    "submit": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
   }
  ],
  "quick_entry": 1,
  "restrict_to_domain": "Services",
  "search_fields": "matter_reference",
  "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_order": "DESC",
  "title_field": "archive_ref_name",
  "track_changes": 1,

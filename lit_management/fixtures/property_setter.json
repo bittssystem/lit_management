@@ -3721,5 +3721,39 @@
   "property_type": "Check",
   "row_name": null,
   "value": "0"
+ },
+ {
+  "default_value": null,
+  "doc_type": "LOC ARCHIVES",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2021-06-11 11:36:15.183568",
+  "name": "LOC ARCHIVES-main-sort_field",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "sort_field",
+  "property_type": "Data",
+  "row_name": null,
+  "value": "name"
+ },
+ {
+  "default_value": null,
+  "doc_type": "LOC ARCHIVES",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2021-06-11 11:36:15.420480",
+  "name": "LOC ARCHIVES-main-show_preview_popup",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "show_preview_popup",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
  }
 ]
